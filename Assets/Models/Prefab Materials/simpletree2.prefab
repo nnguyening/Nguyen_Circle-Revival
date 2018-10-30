@@ -318,7 +318,6 @@ GameObject:
   - component: {fileID: 4163570972136296}
   - component: {fileID: 54134240183105168}
   - component: {fileID: 65498947563141838}
-  - component: {fileID: 64522008995251178}
   - component: {fileID: 114827845126782760}
   m_Layer: 0
   m_Name: simpletree2
@@ -1236,20 +1235,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64522008995251178
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1657749482209714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!65 &65498947563141838
 BoxCollider:
   m_ObjectHideFlags: 1

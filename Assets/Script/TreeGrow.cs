@@ -11,7 +11,7 @@ public class TreeGrow : MonoBehaviour
     {
         if ("MagicRock" == col.gameObject.name)
         {
-            Instantiate(destroyedVersion, transform.position, transform.rotation);
+            Instantiate(destroyedVersion, new Vector3(transform.position.x,0,transform.position.z), transform.rotation);
             Destroy(gameObject);
         }
     }

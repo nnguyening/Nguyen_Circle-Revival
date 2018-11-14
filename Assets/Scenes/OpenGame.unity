@@ -4975,6 +4975,7 @@ GameObject:
   - component: {fileID: 807799655}
   - component: {fileID: 807799654}
   - component: {fileID: 807799653}
+  - component: {fileID: 807799656}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -5020,8 +5021,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.9009434, g: 1, b: 0.9098311, a: 0.7411765}
+    m_HighlightedColor: {r: 0.6857244, g: 1, b: 0.6650944, a: 0.6862745}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5039,7 +5040,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 807799654}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 807799656}
+        m_MethodName: changeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &807799654
@@ -5076,6 +5088,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 807799651}
   m_CullTransparentMesh: 0
+--- !u!114 &807799656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 807799651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 801e7202b19793f438aa4cd9ba44ddb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &815736009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: 14ebadd10a457e740b8703707935ced8,
